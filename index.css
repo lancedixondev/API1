@@ -1,0 +1,37 @@
+body{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+
+    border: 1px solid black;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    background: rgba(46, 44, 44, 0.2);
+    margin-left: 17%;
+    padding: 0 15px
+}
+
+label{
+    margin: 10px 0;
+    display: block
+}
+
+button{
+    border: 1px solid red;
+    background-color: #47abcc;
+    color: white;
+    border-radius: 50px;
+}
+
+button:hover{
+    background-color: #173b47;;
+}
